@@ -63,6 +63,44 @@
 ---
 
 ## Phase 2: Backend Development (Month 2–3)
+# Flask & Django Installation
+
+## Prerequisites
+Python 3.8+ and pip must be installed.
+
+Check:
+python --version
+pip --version
+
+## Create & Activate Virtual Environment
+python -m venv venv
+
+Windows:
+venv\Scripts\activate
+
+Linux / macOS:
+source venv/bin/activate
+
+## Install Flask and Django (Single Step)
+pip install flask django
+
+## Verify Installation
+flask --version
+django-admin --version
+
+## Run Flask App
+python app.py
+Access: http://127.0.0.1:5000/
+
+## Run Django App
+django-admin startproject myproject
+cd myproject
+python manage.py runserver
+Access: http://127.0.0.1:8000/
+
+## Save Dependencies
+pip freeze > requirements.txt
+
 
 ### Month 2: Flask Framework
 
